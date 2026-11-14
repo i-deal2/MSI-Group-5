@@ -10,8 +10,9 @@
 #include <WiFi.h>
 #include <esp32cam.h>
 
-const char* WIFI_SSID = "[Put Wifi ID]";
-const char* WIFI_PASS = "[Put Wifi Password]";
+// Enter your 2.4GHz Wi-Fi credentials (or mobile hotspot)
+const char* WIFI_SSID = "[PUT WIFI ID]";
+const char* WIFI_PASS = "[PUT PASSWORD]";
 
 // ---------- Servo settings ----------
 const int      SERVO_PIN     = 14;
