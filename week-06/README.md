@@ -5,8 +5,13 @@
 2. In Tools, Select: 
 • Board: ESP32 Wrover Module 
 • Partition Scheme: Huge App (3MB No OTA) 
-• Upload Speed: 115200 
-
+• Upload Speed: 115200
+### Additional Setup for phase 4
+4. Download additional libraries in [GitHub](https://github.com/yoursunny/esp32cam)
+5. Install required libraries inside Python (PyCharm):
+   ```bash
+   pip install opencv-python==4.10.0.84
 ## Rules Before Starting
-1. Connect FTDI (or CH340 USB to TTL Serial Cable) to ESP32-CAM 
+1. Connect USB to ESP32-CAM 
 2. Hold IO0 to GND, then power the board (flash mode)
+3. Disconnect from step 2 to run the code
