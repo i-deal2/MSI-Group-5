@@ -5,8 +5,8 @@
 #include "soc/rtc_cntl_reg.h"  // for disabling the brownout reset
 
 // 1. Enter your 2.4GHz Wi-Fi credentials (or mobile hotspot)
-const char* ssid = "Redmi Note 14 Pro 5G";
-const char* password = "rasanyalah";
+const char* WIFI_SSID = "[PUT WIFI ID]";
+const char* WIFI_PASS = "[PUT PASSWORD]";
 
 #define PART_BOUNDARY "123456789000000000000987654321"
 static const char* _STREAM_CONTENT_TYPE = "multipart/x-mixed-replace;boundary=" PART_BOUNDARY;
