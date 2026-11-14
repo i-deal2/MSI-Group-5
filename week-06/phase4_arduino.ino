@@ -10,8 +10,8 @@
 #include <WiFi.h>
 #include <esp32cam.h>
 
-const char* WIFI_SSID = "Redmi Note 14 Pro 5G";
-const char* WIFI_PASS = "rasanyalah";
+const char* WIFI_SSID = "[Put Wifi ID]";
+const char* WIFI_PASS = "[Put Wifi Password]";
 
 // ---------- Servo settings ----------
 const int      SERVO_PIN     = 14;
