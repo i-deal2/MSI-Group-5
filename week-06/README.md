@@ -7,11 +7,15 @@
 • Partition Scheme: Huge App (3MB No OTA) 
 • Upload Speed: 115200
 ### Additional Setup for phase 4
-4. Download additional libraries in [GitHub](https://github.com/yoursunny/esp32cam)
+4. Download additional libraries from [GitHub](https://github.com/yoursunny/esp32cam)
 5. Install required libraries inside Python (PyCharm):
    ```bash
    pip install opencv-python==4.10.0.84
 ## Rules Before Starting
-1. Connect USB to ESP32-CAM 
+1. Connect the USB to the ESP32-CAM 
 2. Hold IO0 to GND, then power the board (flash mode)
 3. Disconnect from step 2 to run the code
+
+### Video Links
+* [Phase 3](https://vt.tiktok.com/ZSpQVxWaY/)
+* [Phase 4](https://vt.tiktok.com/ZSpQP5Ukt/ )
